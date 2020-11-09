@@ -19,3 +19,5 @@ Pergunta.sync({force: false})
     .catch((err) => {
         console.log(err);
     })
+
+module.exports = Pergunta;
